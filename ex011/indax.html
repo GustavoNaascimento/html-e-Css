@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            background-color: pink;
+        }
+    </style>
+    <title>imagens dinamicas</title>
+</head>
+<body>
+    <h1>imagens dinamicas </h1>
+    <p>tente abrir este site em vairios dispositivos diferentes, ou simpesmente aumente ou diminua o tamanho do seu navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="imagem flexivel">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos aprender a reproduzir audio em html 5</p>
+    <audio src="midia/ProblemasdeumMilionário.mp3" preload="metadata" controls ></audio>
+    <audio preload="metadata" controls loop>
+        <source src="midia/ProblemasdeumMilionário.mp3" type="audio/mpeg">
+        <source src="midia/ProblemasdeumMilionário.ogg" type="audio/ogg">
+        <source src="midia/ProblemasdeumMilionário.wav" type="audio/wav">
+    </audio>
+    <p>infelizmente seu navegador n consegue reproduzir audio, para reproduzir baixe <a href="midia/ProblemasdeumMilionário.mp3" download="ProblemasdeumMilionário.mp3" type="audio/mpeg" >aqui</a></p>
+        
+    </body>
+</html>
