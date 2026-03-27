@@ -8,6 +8,12 @@ table{
     border-collapse: collapse;
     position: relative;
 }
+.tabe1{
+    background-color: slategray;
+}
+.tabe2{
+    background-color: cadetblue;
+}
 thead > tr > th{
     position: sticky;
     top: 0;
