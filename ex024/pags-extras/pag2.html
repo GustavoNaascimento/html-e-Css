@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Site Moderno</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(120deg, #1e3c72, #2a5298);
+      color: white;
+    }
+
+    header {
+      padding: 40px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+    }
+
+    header p {
+      opacity: 0.8;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .box {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      backdrop-filter: blur(10px);
+      transition: transform 0.3s, background 0.3s;
+    }
+
+    .box:hover {
+      transform: translateY(-10px);
+      background: rgba(255,255,255,0.2);
+    }
+
+    button {
+      margin-top: 10px;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 6px;
+      background: #00c6ff;
+      color: black;
+      cursor: pointer;
+      font-weight: bold;
+    }
+
+    button:hover {
+      background: #00a2cc;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      margin-top: 20px;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Site Moderno 🚀</h1>
+    <p>Um layout mais estiloso com efeitos</p>
+  </header>
+
+  <section class="grid">
+    <div class="box">
+      <h2>Projeto 1</h2>
+      <p>Descrição rápida do projeto.</p>
+      <button onclick="alert('Você clicou!')">Ver mais</button>
+    </div>
+
+    <div class="box">
+      <h2>Projeto 2</h2>
+      <p>Outro projeto interessante.</p>
+      <button onclick="alert('Legal né?')">Ver mais</button>
+    </div>
+
+    <div class="box">
+      <h2>Projeto 3</h2>
+      <p>Mais uma ideia criativa.</p>
+      <button onclick="alert('Obrigado por visitar!')">Ver mais</button>
+    </div>
+  </section>
+
+  <footer>
+    <p>Feito por você 😎</p>
+  </footer>
+
+</body>
+</html>
