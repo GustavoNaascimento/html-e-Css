@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulário07</title>
+</head>
+<body>
+    <h1>Teste de Opition</h1>
+    <form action="cadastro.php" method="post">
+        <p>
+            <label for="ilist">Estado:</label>
+
+            <select name="list" id="ilist">
+
+                <option value="">São Paulo</option>
+                <option value="">Rio de Janeiro</option>
+                <option value="">Bahia</option>
+                <option value="">Mato grosso</option>
+
+                <optgroup label="Teste de Grupo">
+
+                    <option value="">Mato Grosso DoS ul</option>
+                    <option value="">Amazonas</option>
+
+                </optgroup>
+            </select>
+        </p>
+        <p>
+            <label for="iprof">Profissão</label>
+            <input type="text" name="prof" id="iprof" list="ltprof">
+            <datalist id="ltprof">
+                <Option>Adiministrador</Option>
+                <Option>Eletricista</Option>
+                <Option>Professor</Option>
+                <Option>Desenvolvedor</Option>
+            </datalist>
+        </p>
+        <p>
+            <label for="itext">Mensagem</label> <br>
+            <textarea name="text" id="itext"></textarea>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
