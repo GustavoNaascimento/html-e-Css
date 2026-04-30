@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário09</title>
+</head>
+<body>
+    <h1>Escolha um :</h1>
+    <form action="" method="get">
+        <p>
+            <label for="inumber">Número</label>
+            <input type="range" name="number" id="inumber" min="0" max="10" oninput="xx1.innerHTML = Number(inumber.value)">
+            <output id="xx1">5</output>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
