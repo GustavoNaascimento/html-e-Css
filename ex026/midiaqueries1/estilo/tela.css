@@ -1,0 +1,45 @@
+@charset "UFT-8";
+
+/* estilo pr tela */
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+header{
+    background-color: beige;
+    height: 95px;
+}
+
+header > ul{
+    list-style-type: none;
+}
+ul > li{
+    display: inline-block;
+    background-color: rgba(153, 153, 153, 0.411);
+    font-weight: bolder;
+    padding: 5px;
+}
+article{
+    margin: auto;
+    width: 600px;
+}
+h2{
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+p{
+    line-height: 1.5em
+}
