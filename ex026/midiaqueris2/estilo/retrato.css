@@ -1,3 +1,10 @@
 @charset "UFT-8";
 
 /*configuracao para modo(portrait)*/
+body{
+    
+    background: url(../imagens/cev-portrait.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
