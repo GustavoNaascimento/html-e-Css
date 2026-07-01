@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexiblos boxes</title>
+    <style>
+        div.container{
+            background-color: chocolate;
+            display: flex;
+        }
+        div.itens{
+            background-color: lightgray;
+            text-align: center;
+            border: 1px solid black;
+            padding: 10px;
+
+            flex-basis: 200px;
+            flex-shrink: 1; /*1 representa uma diminuicão*/
+            flex-grow: 1; /*0 é para n aver almentacão*/
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="itens">a</div>
+        <div class="itens">b</div>
+        <div class="itens">c</div>
+    </div>
+</body>
+</html>
