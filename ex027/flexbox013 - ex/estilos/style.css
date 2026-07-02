@@ -19,15 +19,11 @@ header{
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
-
-    border: 1px dashed black;
 }
 h1{
     flex: 0 0 220px;
-    border: 1px dashed black;
 }
 nav{
-    border: 3px dashed rgb(13, 172, 13);
     display: flex;
     flex-flow: row wrap;
     justify-content: end;
@@ -54,6 +50,7 @@ main{
     margin: 10px;
     padding: 10px;
     border-radius: 12px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.582);
     text-align: justify;
     line-height: 1.6;
     text-indent: 30px;
