@@ -1,29 +1,41 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FutureShope</title>
     <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>TecShope</title>
 </head>
 <body>
-    <main>
-        <section>
-            <h1>Welcome back</h1>
-            <p>You're future it's here!</p>
+    <main class="container">
+        <form action="#" method="get">
+            <h1>Bem vindo de volta</h1>
+            <p>Seu futuro é aqui!</p>
 
-            <form action="#" method="get">
-                <div class="log">
-                    <label for="mail">Username</label>
-                    <input type="email" name="email" id="mail">
-                </div>
-                <div class="log">
-                    <label for="isenha">Password</label>
-                    <input type="password" name="senha" id="isenha">
-                </div>
+            <div class="input-login">
+                <input type="email" placeholder="Username" required>
+                <i class="bx bxs-user"></i>
+            </div>
+            <div class="input-login">
+                <input type="password" placeholder="Password" required>
+                <i class="bx bxs-lock-alt"></i>
+            </div>
 
-            </form>
-        </section>
+            <div class="remember-forgot">
+                <label>
+                    <input type="checkbox">
+                    Lembrar senha
+                </label>
+                <a href="#">Esqueci a senha</a>
+            </div>
+
+            <button type="submit" class="sub-login">Login</button>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="#">Cadastre-se</a></p>
+            </div>
+        </form>
     </main>
 </body>
 </html>
