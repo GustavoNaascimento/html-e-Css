@@ -40,6 +40,14 @@ div.input-login{
     height: 100%;
     padding: 20px;
 }
+.input-login label{
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    padding: 0 27px;
+
+    transform: translateY(-50%);
+}
 .input-login > input{
     width: 100%;
     height: 50px;
